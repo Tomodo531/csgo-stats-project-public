@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #A2AABC;
+}
+
+body{
+    background-image: url("./wiktor-ohman-angle-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #1D2433;
+}
+
+.App{   
+    padding: 3em 0 3em 0;   
+    border-radius: 2em;
+    width: 60%;
+    margin: 2em auto 2em auto;
+    background-color: rgba(47, 59, 84, 0.9);
+}
+
+.kd-diagram{
+    margin: auto;
+    width: 60%;
+}
+
+@media (max-width: 1500px){
+    .App{
+        width: 70%;
+    }
+
+    .kd-diagram{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1000px){
+    .App{
+        width: 80%;
+    }
+
+    .kd-diagram{
+        width: 50%;
+    }
+}
+
+@media (max-width: 650px){
+    .App{
+        width: 100%;
+    }
+
+    .search-form input{
+        width: 70%;
+    }
+
+    .kd-diagram{
+        width: 100%;
+    }
+}
+
+@media (min-width: 420px){
+    .stat-border{
+        padding-right: 2em;
+        margin-right: 2em;
+        border-right: solid 2px #A2AABC;
+    }
+}
+
+.search-form{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.search-form input{
+    padding: 0; margin: 0;
+    display: inline-block;
+    width: 50%;
+    border: none;
+    height: 50px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: #1D2433;
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+.search-form button{
+    padding: 0; margin: 0;
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #5CCFE6;
+    color: white;
+    font-size: 1em;
+}
+
+.not-found{
+    text-align: center;
+    padding: 20px;
+}
+
+.Profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img.profile-img{    
+    object-fit: contain;
+}
+
+img.steam-icon{
+    object-fit: contain;
+    width: 2em;
+    margin-right: .5em;
+}
+
+.profile-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-info a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topstats{
+    text-align: center;
+}
+
+.kd-ratio{
+    line-height: 1em;
+    font-size: 5em;
+}
+
+.kill-line{
+    display: block;
+    height: 4px;
+    background-color: #2688CA;
+    border: none;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.death-line{
+    display: block;
+    height: 4px;
+    background-color: #F05B4F;
+    border: none;
+    margin: auto;
+}
+
+.stat-top-lg{
+    margin: 1em 0 1em 0;
+}
+
+.stat-container div{    
+    display: inline-block;
+}
+
+.stat-img-lg{
+    display: inline-block;
+    object-fit: contain;
+    width: 3.3em;
+    padding: .2em;
+}
+
+.stat-title-lg{
+    color: #5CCFE6;
+    font-size: 1em;
+}
+
+.stat-text-lg{
+    line-height: .8em;
+    font-size: 2.5em;
+}
+
+.stat-top-sm{
+    margin: 2em 0 2em 0;
+}
+
+.stat-container{
+    text-align: left;
+    display: inline-block;
+}
+
+.stat-container-sm {
+    text-align: left;
+    display: inline-block;
+    margin: 0 2em 2em 2em;
+}
+
+.stat-container-sm div{    
+    display: inline-block;
+}
+
+.stat-img-sm{
+    display: inline-block;
+    object-fit: contain;
+    width: 2.5em;
+    padding: .2em;
+    margin-right: .5em;
+}
+
+.stat-title-sm{
+    color: #5CCFE6;
+    font-size: 1em;
+}
+
+.stat-text-sm{
+    line-height: .8em;
+    font-size: 2em;
+}
+
+.gun-stats h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 400;
+}
+
+.gun-stats table{
+    margin: auto;
+    width: 70%;
+    text-align: left;
+    border-spacing: 1;
+    border-collapse: collapse;
+}
+
+.gun-stats th{
+    padding: .5em;
+    text-align: left;
+    background: #1D2433;
+    text-transform: uppercase;
+}
+
+.gun-stats td{
+    padding: .5em;
+    text-align: left;    
+}
+
+.gun-stats td img{
+    width: 3em;
+    height: 1em;
+    margin-right: 1em;
+    object-fit: contain   
+}
+
+.gun-stats tr {
+    background-color: rgb(29, 36, 51, 0.5);
+  }
+
+.gun-stats tr:nth-child(even) {
+    background-color: #2f3b54;
+  }
