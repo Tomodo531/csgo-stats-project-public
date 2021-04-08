@@ -15,7 +15,7 @@ body{
 
 .App{   
     padding: 3em 0 3em 0;   
-    border-radius: 2em;
+    border-radius: .8em;
     width: 60%;
     margin: 2em auto 2em auto;
     background-color: rgba(47, 59, 84, 0.9);
@@ -81,8 +81,8 @@ body{
     width: 50%;
     border: none;
     height: 50px;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     background-color: #1D2433;
     font-size: 1em;
     padding-left: 1em;
@@ -94,8 +94,8 @@ body{
     width: 20%;
     height: 50px;
     border: none;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: #5CCFE6;
     color: white;
     font-size: 1em;
@@ -109,12 +109,13 @@ body{
 .Profile{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
-img.profile-img{   
-    width: 300px;
-    height: 300px;
+img.profile-img{    
+    width: 184px;
+    border-radius: 5px;
     object-fit: contain;
 }
 
@@ -150,6 +151,7 @@ img.steam-icon{
     height: 4px;
     background-color: #2688CA;
     border: none;
+    border-radius: 5px;
     margin: auto;
     margin-bottom: 5px;
 }
@@ -159,6 +161,7 @@ img.steam-icon{
     height: 4px;
     background-color: #F05B4F;
     border: none;
+    border-radius: 5px;
     margin: auto;
 }
 

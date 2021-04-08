@@ -31,8 +31,9 @@ function Profile() {
 										<a href={data.response.players[0].profileurl}>
 											<img className="steam-icon" src="images/iconmonstr-steam-1.svg" alt="" />
 										</a>
-										<h1> {data.response.players[0].personaname}</h1>
+										<h1> {data.response.players[0].personaname}</h1>										
 									</div>
+									<p>Statistics are from both casual and competitive play</p>
 								</div>
 							);
 						}
